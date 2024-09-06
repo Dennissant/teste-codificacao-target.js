@@ -1,19 +1,16 @@
-function pertenceAFibonacci(num) {
-    let a = 0, b = 1, c;
-    if (num === 0 || num === 1) return `O número ${num} pertence à sequência de Fibonacci.`;
-
-    while (b < num) {
+function isFibonacci(num) {
+    var a = 0, b = 1, c;
+    while (a < num) {
         c = a + b;
         a = b;
         b = c;
     }
-
-    if (b === num) {
-        return `O número ${num} pertence à sequência de Fibonacci.`;
-    } else {
-        return `O número ${num} não pertence à sequência de Fibonacci.`;
-    }
+    return a === num;
 }
 
-console.log(pertenceAFibonacci(21));  // Teste com um número que pertence
-console.log(pertenceAFibonacci(22));  // Teste com um número que não pertence
+var numero = 21; 
+var resultado = isFibonacci(numero) ? 'é' : 'não é';
+
+var resultadoElemento = document.getElementById('resultadoFibonacci');
+
+resultadoElemento.textContent = 'O número ' + numero + ' ' + resultado + ' um número Fibonacci.';

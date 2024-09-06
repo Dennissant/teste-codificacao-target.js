@@ -1,14 +1,7 @@
-var faturamentoEstados = {
-    "SP": 67836.43,
-    "RJ": 36678.66,
-    "MG": 29229.88,
-    "ES": 27165.48,
-    "Outros": 19849.53
-};
+var total = 500;
+var valor = 150;
+var percentual = (valor / total) * 100;
 
-var total = Object.values(faturamentoEstados).reduce((acc, valor) => acc + valor, 0);
+var resultadoElemento = document.getElementById('resultadoPercentual');
 
-for (var estado in faturamentoEstados) {
-    var percentual = (faturamentoEstados[estado] / total) * 100;
-    console.log(`${estado}: ${percentual.toFixed(2)}%`);
-}
+resultadoElemento.textContent = 'O percentual de ' + valor + ' em relação a ' + total + ' é ' + percentual.toFixed(2) + '%.';

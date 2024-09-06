@@ -4,27 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplos de Código</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .result {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-top: 10px;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
-    <h1>Testes de Faturamento</h1>
-   
-    <script src="src/faturamento/analiseFaturamento.js"></script>
+    <div class="container">
+        <h1>Testes de Faturamento</h1>
+        <div id="resultadoFaturamento" class="result"></div>
+        <script src="src/faturamento/analiseFaturamento.js"></script>
 
-    <h1>Testes Fibonacci</h1>
-    
-    <script src="src/fibonacci/verificarFibonacci.js"></script>
+        <h1>Testes Fibonacci</h1>
+        <div id="resultadoFibonacci" class="result"></div>
+        <script src="src/fibonacci/verificarFibonacci.js"></script>
 
-    <h1>Testes de Índice</h1>
+        <h1>Testes de Índice</h1>
+        <div id="resultadoIndice" class="result"></div>
+        <script src="src/indice/calcularSomaIndice.js"></script>
 
-    <script src="src/indice/calcularSomaIndice.js"></script>
+        <h1>Testes de Percentual</h1>
+        <div id="resultadoPercentual" class="result"></div>
+        <script src="src/percentual/calcularPercentual.js"></script>
 
-    <h1>Testes de Percentual</h1>
-
-    <script src="src/percentual/calcularPercentual.js"></script>
-
-
-    <h1>Testes de Inverter String</h1>
-    
-    <script src="src/string/inverterString.js"></script>
+        <h1>Testes de Inverter String</h1>
+        <div id="resultadoInverterString" class="result"></div>
+        <script src="src/string/inverterString.js"></script>
+    </div>
 </body>
 </html>

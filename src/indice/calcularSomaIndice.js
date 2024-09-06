@@ -1,10 +1,11 @@
-let indice = 13;  // O número até o qual a soma será calculada
-let soma = 0;     
-let k = 0;        
-
+var indice = 13;  
+var soma = 0;    
+var k = 0;       
 while (k < indice) {
     k++;           
     soma += k;     
 }
 
-console.log(soma);
+var resultadoElemento = document.getElementById('resultadoIndice');
+
+resultadoElemento.textContent = 'A soma dos números de 1 até ' + indice + ' é ' + soma;

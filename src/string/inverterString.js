@@ -1,9 +1,10 @@
-function inverteString(str) {
-    let invertida = '';
-    for (let i = str.length - 1; i >= 0; i--) {
-        invertida += str[i];
-    }
-    return invertida;
+function inverterString(str) {
+    return str.split('').reverse().join('');
 }
 
-console.log(inverteString("exemplo"));  // Teste com uma string qualquer
+var texto = 'Hello, World!';
+var textoInvertido = inverterString(texto);
+
+var resultadoElemento = document.getElementById('resultadoInverterString');
+
+resultadoElemento.textContent = 'O texto invertido é: ' + textoInvertido;
