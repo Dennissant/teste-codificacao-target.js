@@ -16,6 +16,7 @@ Analisa valores de faturamento diário para:
 Encontrar o menor valor
 Encontrar o maior valor
 Contar quantos dias o faturamento foi acima da média
+
 🌍 4. Percentual de Faturamento por Estado
 Descrição:
 Calcula a porcentagem que cada estado contribui para o faturamento total da empresa, mostrando a participação de cada região.
