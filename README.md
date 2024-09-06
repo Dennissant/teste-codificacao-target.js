@@ -1,24 +1,27 @@
-Testes de Programação
-Bem-vindo ao repositório de testes de programação! Aqui você vai encontrar uma série de desafios em JavaScript que mostram algumas habilidades básicas de programação.
+Testes de Programação em JavaScript
+Bem-vindo ao repositório de testes de programação em JavaScript! Aqui você encontrará uma série de testes que cobrem diferentes conceitos e operações básicas. Confira abaixo o que cada teste faz:
 
-O que você vai encontrar aqui
-1. Cálculo da Soma
-O que é:
+🧮 1. Cálculo da Soma
+Descrição:
 Este teste calcula a soma dos números de 1 até 13. O resultado é 91.
 
-2. Verificação de Número na Sequência de Fibonacci
-O que é:
-Aqui verificamos se um número específico (como o 21) faz parte da sequência de Fibonacci. No exemplo, o número 21 está na sequência.
+🔢 2. Verificação na Sequência de Fibonacci
+Descrição:
+Aqui, verificamos se um número específico (como o 21) faz parte da sequência de Fibonacci. Confirmamos que 21 está na sequência.
 
-3. Cálculo de Faturamento Diário
-O que é:
-Este teste analisa valores de faturamento diário para encontrar o menor e o maior valor, além de contar quantos dias o faturamento foi acima da média.
+📈 3. Análise de Faturamento Diário
+Descrição:
+Analisa valores de faturamento diário para:
 
-4. Cálculo do Percentual de Faturamento por Estado
-O que é:
-Calcula a porcentagem que cada estado contribui para o faturamento total da empresa, dando uma ideia de como cada região contribui.
+Encontrar o menor valor
+Encontrar o maior valor
+Contar quantos dias o faturamento foi acima da média
+🌍 4. Percentual de Faturamento por Estado
+Descrição:
+Calcula a porcentagem que cada estado contribui para o faturamento total da empresa, mostrando a participação de cada região.
 
-5. Inversão de String
-O que é:
-Inverte os caracteres de uma string. Por exemplo, "Hello, World!" se transforma em "!dlroW ,olleH".
+🔄 5. Inversão de String
+Descrição:
+Inverte os caracteres de uma string. Por exemplo, "Hello, World!" se torna "!dlroW ,olleH".
 
+Esses testes são uma ótima maneira de ver habilidades básicas em JavaScript e entender como resolver problemas comuns de programação. Divirta-se explorando!
